@@ -20,7 +20,7 @@
 			<Item Name="judgement_note_control.ctl" Type="VI" URL="../judgement_note_control.ctl"/>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="name_of_the_game_control.ctl" Type="VI" URL="../name_of_the_game_control.ctl"/>
+		<Item Name="main_CSM.vi" Type="VI" URL="../main_CSM.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
