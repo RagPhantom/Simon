@@ -13,14 +13,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="UI" Type="Folder" URL="../UI">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="controls" Type="Folder">
 			<Item Name="judgement_note_control.ctl" Type="VI" URL="../judgement_note_control.ctl"/>
 		</Item>
-		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="main_CSM.vi" Type="VI" URL="../main_CSM.vi"/>
+		<Item Name="Menu.vi" Type="VI" URL="../UI/Menu.vi"/>
+		<Item Name="Input.vi" Type="VI" URL="../Input.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
