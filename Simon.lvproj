@@ -17,7 +17,6 @@
 			<Item Name="judgement_note_control.ctl" Type="VI" URL="../judgement_note_control.ctl"/>
 		</Item>
 		<Item Name="main_CSM.vi" Type="VI" URL="../main_CSM.vi"/>
-		<Item Name="Input.vi" Type="VI" URL="../Input.vi"/>
 		<Item Name="Menu.vi" Type="VI" URL="../Menu.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
