@@ -18,6 +18,7 @@
 		</Item>
 		<Item Name="main_CSM.vi" Type="VI" URL="../main_CSM.vi"/>
 		<Item Name="Menu.vi" Type="VI" URL="../Menu.vi"/>
+		<Item Name="Judgment.vi" Type="VI" URL="../Judgment.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
