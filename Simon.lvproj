@@ -15,15 +15,22 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="controls" Type="Folder">
 			<Item Name="judgement_note_control.ctl" Type="VI" URL="../judgement_note_control.ctl"/>
+			<Item Name="background_boolean_flash.ctl" Type="VI" URL="../background_boolean_flash.ctl"/>
+			<Item Name="Watch - Get Ready - Your Turn.ctl" Type="VI" URL="../Watch - Get Ready - Your Turn.ctl"/>
+			<Item Name="current_level.ctl" Type="VI" URL="../current_level.ctl"/>
+			<Item Name="judgment_result.ctl" Type="VI" URL="../judgment_result.ctl"/>
+			<Item Name="pause_button.ctl" Type="VI" URL="../pause_button.ctl"/>
+			<Item Name="pause.ctl" Type="VI" URL="../pause.ctl"/>
+			<Item Name="Quit - Retry - Continue buttons.ctl" Type="VI" URL="../Quit - Retry - Continue buttons.ctl"/>
+		</Item>
+		<Item Name="VIs" Type="Folder">
+			<Item Name="Menu.vi" Type="VI" URL="../Menu.vi"/>
+			<Item Name="Judgment.vi" Type="VI" URL="../Judgment.vi"/>
+		</Item>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="pause.vi" Type="VI" URL="../pause.vi"/>
 		</Item>
 		<Item Name="main_CSM.vi" Type="VI" URL="../main_CSM.vi"/>
-		<Item Name="Menu.vi" Type="VI" URL="../Menu.vi"/>
-		<Item Name="Judgment.vi" Type="VI" URL="../Judgment.vi"/>
-		<Item Name="background_boolean_flash.ctl" Type="VI" URL="../background_boolean_flash.ctl"/>
-		<Item Name="Watch - Get Ready - Your Turn.ctl" Type="VI" URL="../Watch - Get Ready - Your Turn.ctl"/>
-		<Item Name="current_level.ctl" Type="VI" URL="../current_level.ctl"/>
-		<Item Name="judgment_result.ctl" Type="VI" URL="../judgment_result.ctl"/>
-		<Item Name="pause_button.ctl" Type="VI" URL="../pause_button.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
