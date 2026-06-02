@@ -26,6 +26,9 @@
 			<Item Name="Start and Rules button.ctl" Type="VI" URL="../Start and Rules button.ctl"/>
 			<Item Name="Easy.ctl" Type="VI" URL="../Easy.ctl"/>
 			<Item Name="Rules dialog box.ctl" Type="VI" URL="../Rules dialog box.ctl"/>
+			<Item Name="Eazy button control.ctl" Type="VI" URL="../Eazy button control.ctl"/>
+			<Item Name="Hard button control.ctl" Type="VI" URL="../Hard button control.ctl"/>
+			<Item Name="Insane button control.ctl" Type="VI" URL="../Insane button control.ctl"/>
 		</Item>
 		<Item Name="VIs" Type="Folder">
 			<Item Name="Menu.vi" Type="VI" URL="../Menu.vi"/>
