@@ -20,6 +20,10 @@
 		<Item Name="Menu.vi" Type="VI" URL="../Menu.vi"/>
 		<Item Name="Judgment.vi" Type="VI" URL="../Judgment.vi"/>
 		<Item Name="background_boolean_flash.ctl" Type="VI" URL="../background_boolean_flash.ctl"/>
+		<Item Name="Watch - Get Ready - Your Turn.ctl" Type="VI" URL="../Watch - Get Ready - Your Turn.ctl"/>
+		<Item Name="current_level.ctl" Type="VI" URL="../current_level.ctl"/>
+		<Item Name="judgment_result.ctl" Type="VI" URL="../judgment_result.ctl"/>
+		<Item Name="pause_button.ctl" Type="VI" URL="../pause_button.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
