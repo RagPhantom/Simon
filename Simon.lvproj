@@ -31,6 +31,10 @@
 			<Item Name="pause.vi" Type="VI" URL="../pause.vi"/>
 		</Item>
 		<Item Name="main_CSM.vi" Type="VI" URL="../main_CSM.vi"/>
+		<Item Name="Quit button.ctl" Type="VI" URL="../Quit button.ctl"/>
+		<Item Name="Start and Rules button.ctl" Type="VI" URL="../Start and Rules button.ctl"/>
+		<Item Name="Easy.ctl" Type="VI" URL="../Easy.ctl"/>
+		<Item Name="Rules dialog box.ctl" Type="VI" URL="../Rules dialog box.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
