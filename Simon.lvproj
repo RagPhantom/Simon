@@ -22,19 +22,20 @@
 			<Item Name="pause_button.ctl" Type="VI" URL="../pause_button.ctl"/>
 			<Item Name="pause.ctl" Type="VI" URL="../pause.ctl"/>
 			<Item Name="Quit - Retry - Continue buttons.ctl" Type="VI" URL="../Quit - Retry - Continue buttons.ctl"/>
+			<Item Name="Quit button.ctl" Type="VI" URL="../Quit button.ctl"/>
+			<Item Name="Start and Rules button.ctl" Type="VI" URL="../Start and Rules button.ctl"/>
+			<Item Name="Easy.ctl" Type="VI" URL="../Easy.ctl"/>
+			<Item Name="Rules dialog box.ctl" Type="VI" URL="../Rules dialog box.ctl"/>
 		</Item>
 		<Item Name="VIs" Type="Folder">
 			<Item Name="Menu.vi" Type="VI" URL="../Menu.vi"/>
 			<Item Name="Judgment.vi" Type="VI" URL="../Judgment.vi"/>
+			<Item Name="StopBeat.vi" Type="VI" URL="../StopBeat.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="pause.vi" Type="VI" URL="../pause.vi"/>
 		</Item>
 		<Item Name="main_CSM.vi" Type="VI" URL="../main_CSM.vi"/>
-		<Item Name="Quit button.ctl" Type="VI" URL="../Quit button.ctl"/>
-		<Item Name="Start and Rules button.ctl" Type="VI" URL="../Start and Rules button.ctl"/>
-		<Item Name="Easy.ctl" Type="VI" URL="../Easy.ctl"/>
-		<Item Name="Rules dialog box.ctl" Type="VI" URL="../Rules dialog box.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
