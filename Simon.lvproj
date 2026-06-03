@@ -33,12 +33,13 @@
 		<Item Name="VIs" Type="Folder">
 			<Item Name="Menu.vi" Type="VI" URL="../Menu.vi"/>
 			<Item Name="Judgment.vi" Type="VI" URL="../Judgment.vi"/>
-			<Item Name="StopBeat.vi" Type="VI" URL="../StopBeat.vi"/>
+			<Item Name="Beat.vi" Type="VI" URL="../Beat.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="pause.vi" Type="VI" URL="../pause.vi"/>
 		</Item>
 		<Item Name="main_CSM.vi" Type="VI" URL="../main_CSM.vi"/>
+		<Item Name="Beat_v2.vi" Type="VI" URL="../Beat_v2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
