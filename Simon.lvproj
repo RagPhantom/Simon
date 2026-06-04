@@ -41,6 +41,7 @@
 			<Item Name="ReadUserLog.vi" Type="VI" URL="../ReadUserLog.vi"/>
 			<Item Name="HashPassword.vi" Type="VI" URL="../HashPassword.vi"/>
 			<Item Name="WriteUserLog.vi" Type="VI" URL="../WriteUserLog.vi"/>
+			<Item Name="AuthenticateUser.vi" Type="VI" URL="../AuthenticateUser.vi"/>
 		</Item>
 		<Item Name="main_CSM.vi" Type="VI" URL="../main_CSM.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
