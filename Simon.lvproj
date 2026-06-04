@@ -34,13 +34,14 @@
 			<Item Name="Menu.vi" Type="VI" URL="../Menu.vi"/>
 			<Item Name="Judgment.vi" Type="VI" URL="../Judgment.vi"/>
 			<Item Name="Beat_v2.vi" Type="VI" URL="../Beat_v2.vi"/>
+			<Item Name="log.vi" Type="VI" URL="../log.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="pause.vi" Type="VI" URL="../pause.vi"/>
 			<Item Name="ReadUserLog.vi" Type="VI" URL="../ReadUserLog.vi"/>
+			<Item Name="HashPassword.vi" Type="VI" URL="../HashPassword.vi"/>
 		</Item>
 		<Item Name="main_CSM.vi" Type="VI" URL="../main_CSM.vi"/>
-		<Item Name="log.vi" Type="VI" URL="../log.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
