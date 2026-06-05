@@ -29,12 +29,13 @@
 			<Item Name="Eazy button control.ctl" Type="VI" URL="../Eazy button control.ctl"/>
 			<Item Name="Hard button control.ctl" Type="VI" URL="../Hard button control.ctl"/>
 			<Item Name="Insane button control.ctl" Type="VI" URL="../Insane button control.ctl"/>
+			<Item Name="Highest level score control.ctl" Type="VI" URL="../Highest level score control.ctl"/>
 		</Item>
 		<Item Name="VIs" Type="Folder">
-			<Item Name="Menu.vi" Type="VI" URL="../Menu.vi"/>
 			<Item Name="Judgment.vi" Type="VI" URL="../Judgment.vi"/>
 			<Item Name="Beat_v2.vi" Type="VI" URL="../Beat_v2.vi"/>
 			<Item Name="log.vi" Type="VI" URL="../log.vi"/>
+			<Item Name="main_CSM.vi" Type="VI" URL="../main_CSM.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="pause.vi" Type="VI" URL="../pause.vi"/>
@@ -43,7 +44,7 @@
 			<Item Name="WriteUserLog.vi" Type="VI" URL="../WriteUserLog.vi"/>
 			<Item Name="AuthenticateUser.vi" Type="VI" URL="../AuthenticateUser.vi"/>
 		</Item>
-		<Item Name="main_CSM.vi" Type="VI" URL="../main_CSM.vi"/>
+		<Item Name="Menu.vi" Type="VI" URL="../Menu.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
