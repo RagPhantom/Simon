@@ -1,0 +1,216 @@
+
+/* Quick Picks grid */
+.graphpaper .gp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  justify-items: center;
+  margin-top: 2rem;
+}
+
+.radioer input[type="radio"] {
+  appearance: auto;
+  -webkit-appearance: radio;
+  display: inline-block;
+  visibility: visible;
+  opacity: 1;
+  width: auto;
+  height: auto;
+  margin: 0 4px 0 0;
+}
+
+
+
+
+
+
+
+.graphpaper .gp-grid a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.graphpaper .gp-grid .box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.graphpaper .gp-grid .box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+}
+
+.graphpaper .gp-grid .box img {
+  margin-bottom: 0.75rem;
+  border: 1px solid var(--border); 
+  border-radius: 0.3rem;
+  height: auto;
+}
+
+/* Notice / alert box */
+.notice {
+  background: var(--surface);
+  border-left: 4px solid var(--accent);
+  padding: 1rem 1.25rem;
+  margin: 2rem auto;
+  width: min(90%, 700px);
+  font-size: 0.95rem;
+  color: var(--text);
+  border-radius: 0.4rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+[data-theme="dark"] .notice {
+  background: #1e1f24;
+  border-left-color: var(--accent);
+  color: var(--text);
+}
+
+/* Make sure normal text areas stay readable */
+.graphpaper p {
+  max-width: 700px;
+  margin: 1rem auto;
+}
+
+/* Slight tightening of section spacing */
+.graphpaper section {
+  margin-bottom: 2rem;
+}
+
+
+
+
+
+
+/* ===============================
+   Graph Paper Quick Picks Section
+   =============================== */
+
+.quickpick {
+  margin: 3rem auto;
+  width: min(95%, 1200px);
+}
+
+/* Toggle buttons */
+.qp-toggle {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.qp-toggle .btn {
+  padding: 0.5rem 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 0.4rem;
+  background: var(--surface);
+  color: var(--text);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.qp-toggle .btn.lit {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+.qp-toggle .btn.dim:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+.qp-now {
+  flex-basis: 100%;
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin-top: 0.5rem;
+}
+
+/* Quick Pick Grid */
+.qp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.qp-grid .column {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.qp-grid .column:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+}
+
+ 
+.qp-grid img {
+  width: auto;
+  height: auto;
+  margin-left: -0.75rem;
+} */
+
+/* Graph header text */
+.graphHeader {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  color: var(--text);
+}
+
+
+I'd like a Breakfast Skillet "to go" with a sausage patty.
+
+
+
+/* Links under previews */
+.qp-grid a {
+  display: inline-block;
+  margin: 0.3rem 0.5rem;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+a.printColor {
+  color: var(--accent);
+}
+
+a.printGrey {
+  color: var(--muted);
+}
+
+/* Dark mode tweaks */
+[data-theme="dark"] .qp-grid .column {
+  background: #1e1f24;
+  border-color: var(--border);
+}
+
+
+
+/* Graph Paper thumbnails: keep native pixel size, never upscale */
+.graphpaper .gp-grid .box img {
+  width: auto;          /* don't stretch to card width */
+  height: auto;
+  max-width: 100%;      /* still shrink if container is narrower */
+  object-fit: contain;  /* ensure full image visible */
+}
+
+/* temporary guard if style.css still wins anywhere */
+.graphpaper .gp-grid .box img { width: auto !important; height: auto !important; max-width: 100% !important; object-fit: contain !important; }

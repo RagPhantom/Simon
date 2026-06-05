@@ -45,6 +45,7 @@
 			<Item Name="AuthenticateUser.vi" Type="VI" URL="../AuthenticateUser.vi"/>
 		</Item>
 		<Item Name="Menu.vi" Type="VI" URL="../Menu.vi"/>
+		<Item Name="song.mp3" Type="Document" URL="../song.mp3"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
